@@ -1,0 +1,79 @@
+[
+    {
+        "command": "lc0",
+        "name": "test1",
+        "options": [
+            {
+                "name": "WeightsFile",
+                "value": "/content/wd/test1.pb.gz"
+            },
+            {
+                "name": "Threads",
+                "value": 1
+            },
+            {
+                "name": "Backend",
+                "value": "cudnn"
+            }
+        ],
+        "protocol": "uci"
+    },
+    {
+        "command": "lc1",
+        "name": "test2",
+        "options": [
+            {
+                "name": "WeightsFile",
+                "value": "/content/wd/test2.pb.gz"
+            },
+            {
+                "name": "Threads",
+                "value": 1
+            },
+            {
+                "name": "Backend",
+                "value": "cudnn"
+            }
+        ],
+        "protocol": "uci"
+    },
+    {
+        "command": "lc2",
+        "name": "baseline",
+        "options": [
+            {
+                "name": "WeightsFile",
+                "value": "/content/wd/baseline.pb.gz"
+            },
+            {
+                "name": "Threads",
+                "value": 3
+            },
+            {
+                "name": "Backend",
+                "value": "cudnn"
+            }
+        ],
+        "protocol": "uci"
+    },
+    {
+        "command": "lc3",
+        "name": "best",
+        "options": [
+            {
+                "name": "WeightsFile",
+                "value": "/content/wd/best.pb.gz"
+            },
+            {
+                "name": "Threads",
+                "value": 3
+            },
+            {
+                "name": "Backend",
+                "value": "cudnn"
+            }
+        ],
+        "protocol": "uci"
+    }
+
+]
